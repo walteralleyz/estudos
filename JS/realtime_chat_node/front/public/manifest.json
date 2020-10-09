@@ -1,0 +1,8 @@
+{
+  "short_name": "Real Time Chat Node",
+  "name": "Real time chat using node, socket and react.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

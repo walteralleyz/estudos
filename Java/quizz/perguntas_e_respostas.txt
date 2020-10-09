@@ -1,0 +1,59 @@
+>> begin
+Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?
+
+a) Tem entre 2 a 4 litros. São retirados 450 mililitros
+b) Tem entre 4 a 6 litros. São retirados 450 mililitros
+c) Tem 10 litros. São retirados 2 litros
+d) Tem 7 litros. São retirados 1,5 litros
+e) Tem 0,5 litros. São retirados 0,5 litros
+
+resposta: b
+>> end
+
+>> begin
+De quem é a famosa frase “Penso, logo existo”?
+
+a) Platão
+b) Galileu Galilei
+c) Descartes
+d) Sócrates
+e) Francis Bacon
+
+resposta: c
+>> end
+
+>> begin
+De onde é a invenção do chuveiro elétrico?
+
+a) França
+b) Inglaterra
+c) Brasil
+d) Austrália
+e) Itália
+
+resposta: c
+>> end
+
+>> begin
+Quais o menor e o maior país do mundo?
+
+a) Vaticano e Rússia
+b) Nauru e China
+c) Mônaco e Canadá
+d) Malta e Estados Unidos
+e) São Marino e Índia
+
+resposta: a
+>> end
+
+>> begin
+Qual o meu nome?
+
+a) Walter
+b) Bernardo
+c) Rodrigo
+d) Joao
+e) Trixa
+
+resposta: a
+>> end
