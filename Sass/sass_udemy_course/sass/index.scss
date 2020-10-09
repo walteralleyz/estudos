@@ -1,0 +1,105 @@
+// Partials
+// @import
+@import "default";
+
+// Variables
+
+$primaryColor: tomato;
+$primaryFont: sans-serif, 'cursive';
+$fontSizeContainer: 1em;
+$quote: "visible";
+
+body {
+    background-color: $primaryColor;
+    font-family: $primaryFont;
+}
+
+// Nesting
+
+.container {
+    width: 50%;
+    height: 100%;
+    nav {
+        ul {
+            li {
+                &:nth-child(1) {
+                    font-size: 1.5em;
+                }
+                &:nth-child(2) {
+                    font-size: 2em;
+                }
+                font-size: $fontSizeContainer;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// mixins
+@mixin transformMe($prop1, $prop2) {
+    width: $prop1;
+    height: $prop2;
+    background-color: yellow;
+    transform: rotate(20deg) scale(1.5);
+}
+
+.transform {
+    @include transformMe(400px, 500px);
+    font-size: 3em;
+}
+
+.transform-2 {
+    @include transformMe(200px, 300px);
+    font-size: 2em;
+}
+
+// extend
+%extend-border {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    font-size: 1em;
+}
+
+.border {
+    @extend %extend-border;
+}
+
+.border1 {
+    @extend %extend-border;
+    margin: 20px;
+}
+
+// pseudo-elements
+.element {
+    a {
+        text-decoration: none;
+        color: #000;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.header {
+    // addition
+    font-size: 4px + 2;
+
+    // subtraction
+    height: 80% - 5%;
+}
+
+// multi
+.multi {
+    width: 20% * 5;
+    // division
+    height: (24px / 4);
+}
+
+p {
+    &:before {
+        content: "Im a string" + $quote;
+    }
+}
