@@ -3,7 +3,7 @@ import Github from '../images/github.png';
 import Linkedin from '../images/linkedin.png';
 
 const Aside = ({ open }) => (
-    <aside className="bg-light d-flex _nav" id="home">
+    <aside className="bg-light d-flex _nav d-print-none" id="home">
         <div className='_nav__top'>
             <img src={Profile} alt='minha foto' className='img-thumbnail border-0 bg-danger rounded-circle' />
             <h3>Walter Alleyz</h3>

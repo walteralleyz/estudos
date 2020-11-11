@@ -18,6 +18,19 @@
     }
 }
 
+._floatmenu {
+    position: absolute;
+    top: 20px;
+
+    span {
+        border-radius: 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
 ._nav__top {
     text-align: center;
     max-width: 100%;
@@ -53,6 +66,10 @@
     max-height: 100vh;
     overflow-y: auto;
     scroll-behavior: smooth;
+
+    @media print {
+        overflow-y: hidden;
+    }
 
     .navbar {
         box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.14);
