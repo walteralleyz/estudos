@@ -1,0 +1,14 @@
+
+        ******User******
+        name: walter
+
+        age: 24
+        city: camboriu
+
+        country: brasil
+
+        email: walter@admin.com
+
+        postal code: 24
+        ****************
+        
