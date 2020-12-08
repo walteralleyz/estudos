@@ -1,0 +1,28 @@
+.container {
+	margin: 10px auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.container__row {
+	display: flex;
+	flex-direction: row;
+}
+
+.container__block {
+	width: 24px;
+	height: 24px;
+	background-color: #333;
+}
+
+.snake__head, .snake__body {
+	height: 24px;
+	width: 24px;
+	background-color: #41f288;
+}
+
+.apple {
+	height: 24px;
+	width: 24px;
+	background-color: #f00;
+}
